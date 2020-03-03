@@ -118,7 +118,7 @@ class CenterTitle extends StatelessWidget {
       alignment: Alignment.center,
       child: Text(
         title,
-        style: Theme.of(context).textTheme.headline4,
+        style: Theme.of(context).textTheme.headline5,
         textAlign: TextAlign.center,
       ),
     );

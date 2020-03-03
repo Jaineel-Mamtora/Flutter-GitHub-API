@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
               Text('Github Users',
                   style: Theme.of(context)
                       .textTheme
-                      .headline4
+                      .headline5
                       .apply(color: Colors.white)),
             ],
           ),
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
         alignment: Alignment.center,
         child: Text(
           _error,
-          style: Theme.of(context).textTheme.headline4,
+          style: Theme.of(context).textTheme.headline5,
         ),
       );
     } else {

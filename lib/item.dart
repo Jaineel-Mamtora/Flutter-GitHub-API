@@ -20,9 +20,9 @@ class GithubItem extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text((user.name != null) ? user.name : '-',
+              Text((user.name != null) ? "Name: " + user.name : '-',
                   style: Theme.of(context).textTheme.subtitle2),
-              Text((user.htmlUrl != null) ? user.htmlUrl : '-',
+              Text((user.htmlUrl != null) ? "Link: " + user.htmlUrl : '-',
                   style: Theme.of(context).textTheme.subtitle2),
               Padding(
                 padding: EdgeInsets.only(top: 4.0),
